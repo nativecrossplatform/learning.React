@@ -8,20 +8,7 @@ function Nav()
     };
     return (
         <nav className='main-nav' style={stlnav}>
-            <ul>
-                <li>
-                Home
-                </li>
-                <li>
-                Articles
-                </li>
-                <li>
-                About
-                </li>
-                <li>
-                Contact
-                </li>
-            </ul>
+            <a href=''>Home</a> <a href=''>Articles</a> <a href=''>About</a> <a href=''>Contact</a> 
         </nav>
     );
 }
