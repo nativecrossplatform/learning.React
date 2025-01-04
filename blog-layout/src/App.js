@@ -6,9 +6,10 @@ import Intro1 from './components/Intro1';
 import Intro2 from './components/Intro2';
 import Intro3 from './components/Intro3';
 import Footer from './components/Footer';
-function App() {
+function App(props) {
   return (
     <div>
+      <h1>dynamic name will be displayed here {props.title}</h1>
       <Nav />
       <Promo />
       <Intro1 />
