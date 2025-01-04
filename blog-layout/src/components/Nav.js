@@ -1,7 +1,7 @@
 function Nav()
 {
     const stlnav = {
-
+        
     };
     return (
         <nav className='main-nav' style={stlnav}>
