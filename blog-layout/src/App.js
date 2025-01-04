@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App(props) {
   return (
     <div>
-      <h1>dynamic name will be displayed here {props.title}</h1>
+      <h1>Dynamic Name Will Be Displayed Here {props.title}</h1>
       <Nav />
       <Promo />
       <Intro1 />
