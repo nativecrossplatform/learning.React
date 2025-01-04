@@ -1,7 +1,10 @@
 function Promo()
-{
+{   const stlpromo = 
+    {
+            backgroundColor:"green"
+    };  
     return (
-        <div className='promo-section'>
+        <div className='promo-section' style={stlpromo}>
             <div>
             <h1>Don't Miss This Deal</h1>
             </div>

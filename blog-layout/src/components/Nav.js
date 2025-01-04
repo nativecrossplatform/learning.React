@@ -1,7 +1,10 @@
 function Nav()
 {
-    const stlnav = {
-        
+    const stlnav = 
+    {
+        color: "red",
+        fontsize: "40px",
+        backgroundColor: "yellow"
     };
     return (
         <nav className='main-nav' style={stlnav}>

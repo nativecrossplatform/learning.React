@@ -1,6 +1,10 @@
 function Intro2() {
+    const stlintro2 = 
+    {
+        backgroundColor:"blue"
+    };
     return (
-        <div className="blog-post-intro">
+        <div className="blog-post-intro" style = {stlintro2}>
             <h2>
                 Why I love front-end web development
             </h2>

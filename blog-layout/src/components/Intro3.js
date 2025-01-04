@@ -1,6 +1,9 @@
 function Intro3() {
+    const stlintro3 = {
+        backgroundColor:"red"
+    }
     return (
-        <div className="blog-post-intro">
+        <div className="blog-post-intro" style={stlintro3}>
             <h2>
                 What's the best way to style your React apps?
             </h2>
