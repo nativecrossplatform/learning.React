@@ -1,7 +1,16 @@
 function Button(props)
 {
+    const styles = {
+        border: "2px solid black",
+        textAlign: "center",
+        fontSize:"30px",
+        borderRadius:"14%",
+        padding:"30px",
+        fontWeight:"bolder",
+        backgroundColor:"white"
+    }
     return (
-        <button id="but" className="but" onClick={props.func}>
+        <button id="but" className="but" onClick={props.func} style={styles}>
             {props.nm}
         </button>
     );
