@@ -1,4 +1,4 @@
-export default function Button()
+function Button()
 {
     return (
         <button id="but" className="but">
@@ -6,3 +6,4 @@ export default function Button()
         </button>
     );
 }
+export default Button;
