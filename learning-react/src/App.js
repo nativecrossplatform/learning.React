@@ -14,8 +14,10 @@ function App() {
   return (
     <div id="container" className="container">
     <Display result={counter}/>
+    <div id="but_container" className="but_container">
     <Button func={increment} nm="Increment"/>
     <Button func={decrement} nm="Decrement"/>
+    </div>
     </div>
   );
 }
