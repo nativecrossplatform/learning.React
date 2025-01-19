@@ -13,9 +13,9 @@ function App() {
   }
   return (
     <div id="container" className="container">
-    <Display/>
-    <Button/>
-    <Button/>
+    <Display result={counter}/>
+    <Button func={increment} nm="Increment"/>
+    <Button func={decrement} nm="Decrement"/>
     </div>
   );
 }

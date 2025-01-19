@@ -1,8 +1,8 @@
-function Button()
+function Button(props)
 {
     return (
-        <button id="but" className="but">
-            Button
+        <button id="but" className="but" onClick={props.func}>
+            {props.nm}
         </button>
     );
 }

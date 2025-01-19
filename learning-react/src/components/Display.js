@@ -1,7 +1,7 @@
-function Display()
+function Display(props)
 {
     return (
-       <h1>Result</h1>
+       <h1>{props.result}</h1>
     );
 }
 export default Display;
