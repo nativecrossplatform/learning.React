@@ -9,7 +9,8 @@ function Button(props)
         fontWeight:"bolder",
         backgroundColor:"black",
         color:"yellow",
-        borderColor:"yellow"
+        borderColor:"yellow",
+        margin:"30px"
     }
     return (
         <button id="but" className="but" onClick={props.func} style={styles}>
