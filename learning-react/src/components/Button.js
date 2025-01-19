@@ -1,8 +1,8 @@
 export default function Button()
 {
     return (
-        <Button id="but" className="but">
+        <button id="but" className="but">
             Button
-        </Button>
+        </button>
     );
 }
