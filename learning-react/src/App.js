@@ -3,15 +3,16 @@ import Button from './components/Button';
 import Display from './components/Display';
 import Title from './components/Title';
 import React, { useState } from 'react';
-function App() {
-  var counter = 0;
+function App() 
+{
+  const [counter,setCounter] = useState(0);
   const increment = () =>
   {
-      counter=counter+1;
+      setCounter(counter+1);
   }
   const decrement = () =>
   {
-      counter=counter-1;
+      setCounter(counter-1);
   }
   return (
     <div id="container" className="container">
