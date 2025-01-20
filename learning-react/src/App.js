@@ -12,7 +12,14 @@ function App()
   }
   const decrement = () =>
   {
+      if(counter!=0)
+      {
       setCounter(counter-1);
+      }
+      else
+      {
+      alert("Counter Cannot Go Below 0")
+      }
   }
   return (
     <div id="container" className="container">
