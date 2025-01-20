@@ -6,3 +6,4 @@ function Title(props)
     };
     <h1 style={styles}>{props.title}</h1>
 }
+export default Title;
