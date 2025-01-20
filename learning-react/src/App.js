@@ -2,6 +2,7 @@ import './App.css';
 import Button from './components/Button';
 import Display from './components/Display';
 import Title from './components/Title';
+import React, { useState } from 'react';
 function App() {
   var counter = 0;
   const increment = () =>
