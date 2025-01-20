@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div id="container" className="container">
-    <Title/>
+    <Title title="Counter"/>
     <Display result={counter}/>
     <div id="but_container" className="but_container">
     <Button func={increment} nm="Increment"/>
