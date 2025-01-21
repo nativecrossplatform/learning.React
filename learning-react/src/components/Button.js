@@ -3,13 +3,7 @@ function Button(props)
 {
     const [clr,chng_clr] = useState("black")
     const chn_clr = () => {
-        if(props.nm=="Increment")
-        {
-        chng_clr("green")
-        }
-        else{
-        chng_clr("red")    
-        }
+        chng_clr(props.nm=="Increment" ? "green":"red")
     }
     const og_color = () => {chng_clr("black")}
     const styles = {
